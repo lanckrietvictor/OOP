@@ -12,7 +12,9 @@ class Form {
     $this->inputName = $inputName;
     $this->inputValue = $inputValue;
 
-    return "<input name='".$this->inputName."' value='".$this->inputValue."'>";
+    return "<label>".$this->inputName."</label>
+    <br>
+    <input name='".$this->inputName."' value='".$this->inputValue."'>";
   }
 
   public function submit($submitValue) {
